@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Salary Calculation</title>
+    <link rel="stylesheet" type="text/css" href="formatting.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -21,11 +22,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp; Wage: $<asp:TextBox ID="tbWage" runat="server"></asp:TextBox>
         </p>
         <p>
-&nbsp;&nbsp;&nbsp; Pre-tax Deductions: $<asp:TextBox ID="tbPreTax" runat="server"></asp:TextBox>
+&nbsp;&nbsp;Pre-tax Deductions: $<asp:TextBox ID="tbPreTax" runat="server"></asp:TextBox>
         </p>
         <p>
-            &nbsp;
-            Post-tax Deductions:
+            &nbsp;Post-tax Deductions:
             $<asp:TextBox ID="tbPostTax" runat="server"></asp:TextBox>
         </p>
         <asp:Button ID="btnCalc" runat="server" Text="Calculate" />

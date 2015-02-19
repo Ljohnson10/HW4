@@ -1,2 +1,10 @@
-﻿body {
+﻿header{
+    font-size:200%;
+    font-weight: bold;
+}
+body{
+    background-color: #D6E4D4;
+    color: #42743A;
+    font-family:Helvetica,Arial,sans-serif;
+   
 }
