@@ -28,7 +28,17 @@ Partial Class _Default
 
         netPay = pay - postTaxD
 
-        lblNetPay.Text = Convert.ToString(netPay)
+        lblNetPay.Text = String.Format("{0:C}", netPay)
+
+    End Sub
+
+    Protected Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        'clears textboxes and label upon click of clear button
+        tbHoursWorked.Text = String.Empty
+        tbPostTax.Text = String.Empty
+        tbPreTax.Text = String.Empty
+        tbWage.Text = String.Empty
+        lblNetPay.Text = String.Empty
 
     End Sub
 End Class

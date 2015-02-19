@@ -14,22 +14,22 @@
     </header>
     </div>
         <p style="margin-left: 40px">
-            Hours Worked:
+            &nbsp;&nbsp; Hours Worked:
             <asp:TextBox ID="tbHoursWorked" runat="server"></asp:TextBox>
         </p>
         <p style="margin-left: 80px">
-&nbsp;&nbsp;&nbsp; Wage:
-            <asp:TextBox ID="tbWage" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp; Wage: $<asp:TextBox ID="tbWage" runat="server"></asp:TextBox>
         </p>
         <p>
-&nbsp;&nbsp; Pre-tax Deductions:
-            <asp:TextBox ID="tbPreTax" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp; Pre-tax Deductions: $<asp:TextBox ID="tbPreTax" runat="server"></asp:TextBox>
         </p>
         <p>
+            &nbsp;
             Post-tax Deductions:
-            <asp:TextBox ID="tbPostTax" runat="server"></asp:TextBox>
+            $<asp:TextBox ID="tbPostTax" runat="server"></asp:TextBox>
         </p>
         <asp:Button ID="btnCalc" runat="server" Text="Calculate" />
+        <asp:Button ID="btnClear" runat="server" style="margin-left: 27px" Text="Clear" />
         <p>
             Net Pay:
             <asp:Label ID="lblNetPay" runat="server"></asp:Label>
