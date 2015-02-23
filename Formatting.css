@@ -6,5 +6,6 @@ body{
     background-color: #D6E4D4;
     color: #42743A;
     font-family:Helvetica,Arial,sans-serif;
-   
+    border-style:groove;
+    border-width:5px;
 }
